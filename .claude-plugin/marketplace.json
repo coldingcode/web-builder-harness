@@ -1,0 +1,27 @@
+{
+  "name": "web-builder-harness",
+  "owner": {
+    "name": "coldingcode",
+    "url": "https://github.com/coldingcode"
+  },
+  "metadata": {
+    "description": "Sprint-based harness that plans, builds and verifies small web apps with Claude Code.",
+    "version": "9.0.0",
+    "pluginRoot": "./web-builder"
+  },
+  "plugins": [
+    {
+      "name": "web-builder",
+      "source": "./web-builder",
+      "description": "Planner, generator, evaluator and product-acceptance agents with hook-enforced gates.",
+      "version": "9.0.0",
+      "author": {
+        "name": "coldingcode"
+      },
+      "homepage": "https://github.com/coldingcode/web-builder-harness",
+      "repository": "https://github.com/coldingcode/web-builder-harness",
+      "license": "MIT",
+      "category": "development"
+    }
+  ]
+}

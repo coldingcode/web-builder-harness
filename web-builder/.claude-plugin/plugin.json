@@ -1,0 +1,12 @@
+{
+  "name": "web-builder",
+  "version": "9.0.0",
+  "description": "Plan, build and verify small web apps in sprints: planner, generator, evaluator and product-acceptance agents, enforced by hooks.",
+  "author": {
+    "name": "coldingcode"
+  },
+  "homepage": "https://github.com/coldingcode/web-builder-harness",
+  "repository": "https://github.com/coldingcode/web-builder-harness",
+  "license": "MIT",
+  "keywords": ["claude-code", "plugin", "harness", "web", "agents", "playwright"]
+}

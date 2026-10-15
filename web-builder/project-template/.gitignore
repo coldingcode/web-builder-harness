@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Build output
+dist/
+build/
+out/
+coverage/
+.next/
+
+# Secrets and local environment (keep committed templates such as .env.example)
+.env
+.env.*
+!.env.example
+
+# Databases
+*.db
+*.sqlite3
+
+# Harness and test artifacts
+.web-builder/evidence/
+playwright-report/
+test-results/
+
+# OS and logs
+.DS_Store
+*.log

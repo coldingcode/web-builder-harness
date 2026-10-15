@@ -1,0 +1,8 @@
+# Python
+__pycache__/
+*.pyc
+
+# Local tooling
+.venv/
+.DS_Store
+*.log
