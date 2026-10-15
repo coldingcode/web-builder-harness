@@ -112,7 +112,7 @@ v9 用 Python 钩子分发器和控制命令行，替换了 v8 的 shell 钩子�
 
 ## 许可证
 
-MIT，见 [LICENSE](LICENSE)。
+[LICENSE](LICENSE)。
 
 ## Community 
 <a href="https://qm.qq.com/q/xf3G2NODwA" target="_blank"><img src="https://img.shields.io/badge/QQ%20群-1108208001-EB1923?logo=tencentqq&logoColor=white" alt="QQ Group" /></a>
