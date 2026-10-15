@@ -116,4 +116,4 @@ v9 用 Python 钩子分发器和控制命令行，替换了 v8 的 shell 钩子�
 
 ## Community 
 <a href="https://qm.qq.com/q/xf3G2NODwA" target="_blank"><img src="https://img.shields.io/badge/QQ%20群-1108208001-EB1923?logo=tencentqq&logoColor=white" alt="QQ Group" /></a>
-[![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-blue)](https://linux.do)
+[![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-blue)](https://linux.do/t/topic/3028705)
