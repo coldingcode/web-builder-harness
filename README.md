@@ -101,20 +101,14 @@ It covers the state machine, the cycle budget and extensions, the commit-message
 
 ## Limitations
 
-- The plugin's agent and command prompts are written in Chinese. The README is in English and Chinese. The generated app's language follows your request.
+- The README is in English and Chinese. The generated app's language follows your request.
 - Scope is frozen after confirmation. To change scope, start a new run in a new folder.
 - The evaluator and PA run in the same local environment as the generator, so they are independent by context, not by machine.
 - The plugin ships no permission allowlist, so Claude Code asks you to confirm file writes and shell commands. The hooks only block operations; they never pre-approve one.
-
-## History
-
-Version 9 replaces the v8 shell hooks, which did not reliably block and did not match their own design document, with the Python dispatcher and control CLI described here. The v8 design and self-review are archived in `docs/history/`. See [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
 [LICENSE](LICENSE).
 
 ## Community 
-<a href="https://qm.qq.com/q/xf3G2NODwA" target="_blank"><img src="https://img.shields.io/badge/QQ%20群-1108208001-EB1923?logo=tencentqq&logoColor=white" alt="QQ Group" /></a>
-
-[![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-blue)](https://linux.do/t/topic/3028705)
+<a href="https://qm.qq.com/q/xf3G2NODwA" target="_blank"><img src="https://img.shields.io/badge/QQ%20群-1108208001-EB1923?logo=tencentqq&logoColor=white" alt="QQ Group" /></a> [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-blue)](https://linux.do/t/topic/3028705)

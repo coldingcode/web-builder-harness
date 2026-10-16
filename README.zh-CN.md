@@ -101,19 +101,14 @@ python3 -m unittest discover -s tests -v
 
 ## 局限
 
-- 插件的智能体与命令提示词目前是中文。README 提供英文与中文两个版本。生成的应用使用什么语言，取决于你的需求。
+- README 提供英文与中文两个版本。生成的应用使用什么语言，取决于你的需求。
 - 确认后范围被冻结。要修改范围，请在新文件夹中开始新的运行。
 - 评估者与产品验收和生成者运行在同一台本地环境中，它们的独立性来自上下文隔离，而不是机器隔离。
 - 插件不提供权限白名单，所以 Claude Code 会要求你确认文件写入和 shell 命令。钩子只负责拦截，不会预先批准任何操作。
-
-## 历史
-
-v9 用 Python 钩子分发器和控制命令行，替换了 v8 的 shell 钩子。v8 的钩子不能可靠地阻断，也与自身的设计文档不一致。v8 的设计与自评归档在 `docs/history/` 中。详见 [CHANGELOG.md](CHANGELOG.md)。
 
 ## 许可证
 
 [LICENSE](LICENSE)。
 
 ## Community 
-<a href="https://qm.qq.com/q/xf3G2NODwA" target="_blank"><img src="https://img.shields.io/badge/QQ%20群-1108208001-EB1923?logo=tencentqq&logoColor=white" alt="QQ Group" /></a>
-[![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-blue)](https://linux.do/t/topic/3028705)
+<a href="https://qm.qq.com/q/xf3G2NODwA" target="_blank"><img src="https://img.shields.io/badge/QQ%20群-1108208001-EB1923?logo=tencentqq&logoColor=white" alt="QQ Group" /></a> [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-blue)](https://linux.do/t/topic/3028705)
